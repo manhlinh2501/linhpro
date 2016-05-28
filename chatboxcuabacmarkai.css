@@ -16,14 +16,14 @@
 .body_chat {min-width: 986px;font-family: tahoma,FontAwesome;font-weight: bold;}
 .khungtk {display: block;padding: 5px;background: black;font-weight: bold;color: white;font-size: 20px;}
 .box_onl {position: absolute;width: 200px;top: 0;bottom: 0;background: rgb(239, 239, 233);left: 0;border-right: 1px solid;z-index: 9}
-#Cboxvhg {top: 0;position: absolute;right: 0;left: 200px;padding: 10px;background: rgb(189, 162, 24)}
-.result {position: absolute;right: 0;left: 200px;padding: 10px;top: 52px;bottom: 0;overflow: auto;}
+#Cboxvhg {bottom: 0;position: absolute;right: 0;left: 0;padding: 10px;background: rgb(189, 162, 24)}
+.result {position: absolute;right: 0;left: 200px;padding: 10px;top: 0;bottom: 52px;overflow: auto;}
 #linkdechen,.popup {display: none}
 input {font-family: Tahoma,FontAwesome;cursor: pointer;font-weight: bold;padding: 8px;border: 0;margin: 0 8px;}
 #text {margin-right: 20px;cursor: text}
 #do {border: 0;background: cornflowerblue;color: white}
 .tit_onl, .tit_pri {display: block;padding: 16px;color: white;text-align: center;background: darkcyan;}
-.list_onl, .list_pri {padding: 10px;min-height: 27%;overflow-y: overlay;}
+.list_onl, .list_pri {padding: 10px;min-height: 43%;overflow-y: overlay;}
 #divsmilies {background: darkblue;color: white;}
 #chatbox-option-buzz {background: darkred;color: white}
 #chen_link {background: darkslategrey;color: white}
@@ -71,3 +71,6 @@ keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg
 @-webkit-keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
 @-o-keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
 @-moz-keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
+@media only screen and (max-width: 987px) {
+  #chen_link{display:none;} 
+}
