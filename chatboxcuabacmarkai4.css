@@ -16,8 +16,8 @@
 .body_chat {height: 360px;font-family: tahoma,FontAwesome;font-weight: bold;width: 100%;}
 p.block_mess {display: block;margin: 3px;float: left;width: 100%;padding: 5px;font-size: 15px;border-bottom: 1px solid #DCDCDC;}
 .box_onl {position: absolute;width: 200px;top: 0;bottom: 0;background: rgb(239, 239, 233);left: 0;border-right: 1px solid;z-index: 9}
-#Cboxvhg {bottom: 0;position: absolute;right: 0;left: 0;}
-.result {position: absolute;right: 0;left: 0;padding: 10px;top: 0;bottom: 52px;overflow: auto;}
+#Cboxvhg {bottom: 0;position: absolute;right: 0;left: 0;width: 350px;}
+.result {position: absolute;right: 0;left: 0;padding: 10px;top: 0;bottom: 52px;overflow: auto;width: 350px;}
 input:not(#text) {font-family: Tahoma,FontAwesome;cursor: pointer;font-weight: 700;padding: 8px;border: 0;font-size: 16px;}
 #text {font-size: 14px;cursor: text;width: 100%;border: 2px solid #FFB100;padding: 8px;}
 #do {border: 0;background: #03C100;color: white;width: 50%;float: left;}
